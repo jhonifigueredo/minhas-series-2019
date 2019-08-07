@@ -1,0 +1,57 @@
+.header{
+  background-color: #c03928;
+}
+  .header--title{
+    color: white;
+    text-shadow: 1px 1px 1px #000000;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 32px
+  }
+  
+    .header--title-bgwhite{
+      color: #c03928;
+      background-color: white;
+      }
+  
+/*serie cover main page */
+
+.serie{
+text-align: center;
+}
+  .serie--title{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+  }
+  .serie--title-genre{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #a9a4a4;
+    display: block;
+  }
+  .serie--image{
+    display: block;
+    max-width: 328px;
+  }
+  .serie--readmore{
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    background-color: #c03928;
+    text-decoration: none;
+    display: block;
+  }
+    .serie--readmore:hover{
+      background-color: #e74c3c;
+    }  
+
+    /* footer */
+.footer{
+  background-color: #eeeeee;
+  color: #c03928;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+}
+  .footer--image{
+    width: 25px;
+    height: 25px;
+  }
