@@ -3,12 +3,16 @@
   padding: 0; margin: 0;
   box-sizing: border-box;
 }
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
 .header{
   background-color: #c03928;
   background-image: linear-gradient(#c03928,#e74c3c);
 }
-  .header--title{
+  .header__title{
     color: white;
     text-shadow: 1px 1px 1px #000000;
     font-family: 'Roboto', sans-serif;
@@ -17,14 +21,38 @@
     padding: 30px;
     text-align: center;
   }
+  @media (min-width: 600px){
+    .header__title{
+      text-align: left;
+    }
+  }
   
-    .header--title-bgwhite{
+    .header__title--bgwhite{
       color: #c03928;
       background-color: white;
       padding: 6px;
       border-radius: 6px;
       }
-  
+.menu{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+  @media(min-width: 600px){
+    .menu{
+      flex-direction: row;
+    }
+  }
+  .menu__item > a{
+    padding: 20px;
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+  }
+  .menu__item > a:hover{
+    color: #c03928;
+    background-color: #fff;
+  }
 /*serie cover main page */
 
 .serie{
